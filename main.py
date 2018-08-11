@@ -8,7 +8,7 @@ import asyncio
 
 client = discord.Client()
 
-bot_admins = ['269959141508775937']
+bot_admins = ['288069739891130369']
 
 spam_protector = {}
 
@@ -657,7 +657,7 @@ async def on_message(message):
         await client.send_message(
             message.channel,
             "Okay, invite me to your Server:\n"
-            "https://discordapp.com/oauth2/authorize?client_id=360801859461447700&scope=bot&permissions=19456"
+            "NO!"
         )
 
     elif message.content.lower().startswith((prefix + 'info', prefix + 'about')):
@@ -686,12 +686,12 @@ async def on_message(message):
         )
         infotext.add_field(
             name="Developer",
-            value="Name: **Linus Bartsch**\n"
-                  "Discord: **LiBa01#8817**\n"
+            value="Name: **SoCalLaw**\n"
+                  "Discord: **SoCalLaw#1872**\n"
                   "GitHub: [LiBa001](https://github.com/LiBa001)\n"
-                  "I'm also at [Discordbots.org](https://discordbots.org/user/269959141508775937).\n"
+                  "I'm also at"
                   "I'd be very happy if you'd support me on "
-                  "[**Patreon**](https://www.patreon.com/user?u=8320690). :heart:\n"
+                  ". :heart:\n"
                   "*Concept idea by **MrBlack#8359***",
             inline=True
         )
